@@ -1,0 +1,152 @@
+{
+  "genres": [
+    { "name": "Action" },
+    { "name": "Comedy" },
+    { "name": "Drama" },
+    { "name": "Thriller" },
+    { "name": "Horror" },
+    { "name": "Romance" },
+    { "name": "Sci-Fi" },
+    { "name": "Fantasy" },
+    { "name": "Animation" },
+    { "name": "Adventure" }
+  ],
+  "users": [
+    {
+      "username": "JohnDoe",
+      "email": "johndoe@gmail.com",
+      "password": "password1",
+      "role": "admin",
+      "phoneNumber": "555-555-5555",
+      "address": "123 Main St"
+    },
+    {
+      "username": "JaneDoe",
+      "email": "janedoe@gmail.com",
+      "password": "password2",
+      "role": "user",
+      "phoneNumber": "555-555-5556",
+      "address": "456 Park Ave"
+    },
+    {
+      "username": "BobSmith",
+      "email": "bobsmith@gmail.com",
+      "password": "password3",
+      "role": "user",
+      "phoneNumber": "555-555-5557",
+      "address": "789 Elm St"
+    },
+    {
+      "username": "SamanthaJones",
+      "email": "sjones@gmail.com",
+      "password": "password4",
+      "role": "admin",
+      "phoneNumber": "555-555-5558",
+      "address": "321 Oak St"
+    },
+    {
+      "username": "MikeWilliams",
+      "email": "mikew@gmail.com",
+      "password": "password5",
+      "role": "user",
+      "phoneNumber": "555-555-5559",
+      "address": "159 Pine St"
+    },
+    {
+      "username": "ChrisBrown",
+      "email": "chrisbrown@gmail.com",
+      "password": "password6",
+      "role": "admin",
+      "phoneNumber": "555-555-5560",
+      "address": "753 Cedar St"
+    },
+    {
+      "username": "AmandaMiller",
+      "email": "amandam@gmail.com",
+      "password": "password7",
+      "role": "user",
+      "phoneNumber": "555-555-5561",
+      "address": "964 Birch St"
+    },
+    {
+      "username": "JustinBieber",
+      "email": "justinb@gmail.com",
+      "password": "password8",
+      "role": "admin",
+      "phoneNumber": "555-555-5562",
+      "address": "135 Maple St"
+    },
+    {
+      "username": "KimKardashian",
+      "email": "kimk@gmail.com",
+      "password": "password9",
+      "role": "user",
+      "phoneNumber": "555-555-5563",
+      "address": "246 Willow St"
+    },
+    {
+      "username": "TaylorSwift",
+      "email": "taylors@gmail.com",
+      "password": "password10",
+      "role": "admin",
+      "phoneNumber": "555-555-5564",
+      "address": "357 Sycamore St"
+    }
+  ],
+  "movies": [
+    {
+      "title": "Your Name",
+      "synopsis": "Two strangers find themselves linked in a bizarre way. When a connection forms, will distance be the only thing to keep them apart?",
+      "trailerUrl": "https://www.youtube.com/watch?v=hRfHcp2GjVI",
+      "imgUrl": "https://m.media-amazon.com/images/M/MV5BOGE4NzU1YTAtNzA3Mi00ZTA2LTg2YmYtMDJmMThiMjlkYjg2XkEyXkFqcGdeQXVyNjU0OTQ0OTY@.V1_SY1000_CR0,0,631,1000_AL.jpg",
+      "rating": 8,
+      "genreId": 10,
+      "authorId": 5
+    },
+    {
+      "title": "Death Note",
+      "synopsis": "A high school student discovers a supernatural notebook that allows him to kill anyone whose name he knows, while a detective tries to track him down.",
+      "trailerUrl": "https://www.youtube.com/watch?v=JuHwQ5w_k5M",
+      "imgUrl": "https://m.media-amazon.com/images/M/MV5BNjY4MjIxNzkxNF5BMl5BanBnXkFtZTgwMzQ1OTYwMjI@.V1_SY1000_CR0,0,696,1000_AL.jpg",
+      "rating": 7,
+      "genreId": 8,
+      "authorId": 10
+    },
+    {
+      "title": "Grave of the Fireflies",
+      "synopsis": "A young boy and his little sister struggle to survive in Japan during World War II.",
+      "trailerUrl": "https://www.youtube.com/watch?v=4vPeTSRd580",
+      "imgUrl": "https://m.media-amazon.com/images/M/MV5BYmVmODMwN2QtNmIyYi00YWU3LTg3YTktMjEwMzVjNjZhNzFjXkEyXkFqcGdeQXVyNTA4NzY1MzY@.V1_SY1000_CR0,0,666,1000_AL.jpg",
+      "rating": 9,
+      "genreId": 4,
+      "authorId": 6
+    },
+    {
+      "title": "Ponyo",
+      "synopsis": "A five-year-old boy develops a relationship with Ponyo, a goldfish princess who longs to become a human after falling in love with him.",
+      "trailerUrl": "https://www.youtube.com/watch?v=uGp9YKUYnJc",
+      "imgUrl": "https://m.media-amazon.com/images/M/MV5BMjE2Mjg4ODU1NF5BMl5BanBnXkFtZTgwMjEyMzM1MjE@._V1_.jpg",
+      "rating": 7,
+      "genreId": 7,
+      "authorId": 7
+    },
+    {
+      "title": "Whisper of the Heart",
+      "synopsis": "A young girl finds that all the books she chooses in the library have been previously checked out by the same boy.",
+      "trailerUrl": "https://www.youtube.com/watch?v=zGQ3_q3Bq9s",
+      "imgUrl": "https://m.media-amazon.com/images/M/MV5BZjE5NjE5YzAtYjgxNS00ZjMxLWI5NzItY2VhNjE4MmQ2ZjNlXkEyXkFqcGdeQXVyNjUwNzk3NDc@._V1_SY1000_CR0,0,717,1000_AL_.jpg",
+      "rating": 8,
+      "genreId": 5,
+      "authorId": 3
+    },
+    {
+      "title": "The Secret World of Arrietty",
+      "synopsis": "A family of tiny people who live anonymously in another family's residence must avoid being discovered by the human inhabitants of the house.",
+      "trailerUrl": "https://www.youtube.com/watch?v=gvwvZ5ljKcw",
+      "imgUrl": "https://m.media-amazon.com/images/M/MV5BMjE4NzA4MjUyMV5BMl5BanBnXkFtZTgwMzA4NjUwNzE@._V1_SY1000_CR0,0,724,1000_AL_.jpg",
+      "rating": 7,
+      "genreId": 4,
+      "authorId": 2
+    }
+  ]
+}

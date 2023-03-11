@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+:root {
+  background-color: #141414;
+}
+.slider-red {
+  --slider-connect-bg: #e50914;
+  --slider-tooltip-bg: #e50914;
+  --slider-handle-ring-color: #ef444430;
+}
